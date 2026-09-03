@@ -1,0 +1,42 @@
+Package: ramchoice
+Type: Package
+Title: Revealed Preference and Attention Analysis in Random Limited Attention Models
+Version: 3.0.0
+Authors@R:
+    c(person(given = c("Matias", "D."),
+             family = "Cattaneo",
+             role = c("aut", "cre"),
+             email = "matias.d.cattaneo@gmail.com"),
+      person(given = "Paul",
+             family = "Cheung",
+             role = "aut"),
+      person(given = "Xinwei",
+             family = "Ma",
+             role = "aut"),
+      person(given = "Yusufcan",
+             family = "Masatlioglu",
+             role = "aut"),
+      person(given = "Elchin",
+             family = "Suleymanov",
+             role = "aut"))
+Description: Implements identification, estimation, inference, and
+    specification procedures for random limited-attention models, including
+    the Random Attention Model of Cattaneo, Ma, Masatlioglu, and Suleymanov
+    (2020) <doi:10.1086/706861> and the Attention Overload Model of Cattaneo,
+    Cheung, Ma, and Masatlioglu (2026)
+    <doi:10.48550/arXiv.2110.10650>. The methods use standard choice data to
+    partially identify preferences and attention and provide
+    simulation-based procedures for statistical inference.
+Imports:
+    lpSolve,
+    MASS
+Suggests:
+    testthat (>= 3.0.0)
+Depends: R (>= 3.1.0)
+License: GPL-2
+URL: https://github.com/mdcattaneo/ramchoice,
+    https://arxiv.org/abs/2110.10650
+BugReports: https://github.com/mdcattaneo/ramchoice/issues
+Encoding: UTF-8
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.0
