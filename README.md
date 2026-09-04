@@ -71,12 +71,6 @@ install.packages("ramchoice")
 - Help: [R manual](https://cran.r-project.org/web/packages/ramchoice/ramchoice.pdf),
   [CRAN repository](https://cran.r-project.org/package=ramchoice).
 
-To install the development version from GitHub, type:
-
-```r
-remotes::install_github("mdcattaneo/ramchoice", subdir = "R/ramchoice")
-```
-
 ## References
 
 ### Random Attention Model
